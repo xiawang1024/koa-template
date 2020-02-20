@@ -1,0 +1,30 @@
+{  
+  "name": "koa-template",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiawang1024/koa-template.git"
+  },
+  "keywords": ["koa-template"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/xiawang1024/koa-template/issues"
+  },
+  "engines": {
+    "node": ">= 7.6"
+  },
+  "homepage": "https://github.com/xiawang1024/koa-template#readme",
+  "description": ""
+}
