@@ -22,10 +22,9 @@ app.use(router.routes(), router.allowedMethods())
  * 挂载静态资源
  */
 const compress = require('koa-compress') /**开启gzip */
-app.use(compress())
+app.use(compress({threshold:'2kb'}))
 const serve = require('koa-static')
-
-app.use(serve(path.join(__dirname, './static')), {/* options */ })
+app.use(serve(path.join(__dirname, './static')), {  })
 
 
 app.use(async ctx => {

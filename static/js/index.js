@@ -7,7 +7,7 @@
  * @LastEditTime: 2020-02-21 15:00:56
  */
 let spanDom = document.querySelector('span')
-
+spanDom.innerHTML = new Date()
 setInterval(() => {
     let nowTime = new Date()
     spanDom.innerHTML = nowTime
