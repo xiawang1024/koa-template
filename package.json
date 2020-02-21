@@ -14,7 +14,7 @@
   "keywords": [
     "koa-template"
   ],
-  "author": "",
+  "author": "{{author}}",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.11.0"
@@ -28,5 +28,5 @@
   "engines": {
     "node": ">= 7.6"
   },
-  "homepage": "https://github.com/xiawang1024/koa-template#readme",
+  "homepage": "https://github.com/xiawang1024/koa-template#readme"
 }
