@@ -1,5 +1,5 @@
 {
-  "name": "{{name}}",
+  "name": "koa",
   "description": "{{description}}",
   "version": "1.0.0",
   "main": "app.js",
@@ -17,9 +17,13 @@
   "author": "{{author}}",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.11.0"
+    "koa": "^2.11.0",
+    "koa-compress": "^3.0.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0"
   },
   "devDependencies": {
+    "@types/node": "^13.7.4",
     "nodemon": "^2.0.2"
   },
   "bugs": {
