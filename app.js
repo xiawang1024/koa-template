@@ -10,7 +10,11 @@ const Koa = require('koa')
 const app = new Koa()
 const path = require('path')
 
-
+/**
+ * post 数据解析
+ */
+const bodyParser = require('koa-bodyparser')
+app.use(bodyParser())
 
 /**
  * 加载路由
